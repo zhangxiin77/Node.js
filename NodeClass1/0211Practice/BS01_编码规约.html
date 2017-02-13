@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <!--//兼容IE，通知IE使用其支持的最新模式-->
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE-Edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <title>BS编码规约</title>
+    <style>
+        .body {
+
+        }
+        /*群组选择器换行书写，花括号前加空格*/
+        div,
+        p,
+        a {
+            /* ":" 前加空格*/
+            font: 20px;
+            background-color: rgba(0,0,0,.5);
+        }
+        /*css声明顺序*/
+        div {
+            /*position相关*/
+            position: relative;
+            /*盒子模型相关*/
+            display: block;
+            float: left;
+            width: 100px;
+            padding: 20px;
+            /*文字内容相关*/
+            font: normal 13px "Helvetica Neue", sans-serif;
+            color: #fff;
+            /*visual */
+            background-color: #fff;
+            border: 1px;
+            /*Misc 其他内容*/
+            opacity: 1;
+
+
+        }
+    </style>
+</head>
+<body>
+    <!--//标签内属性的书写顺序-->
+    <!--class
+        id, name
+        data-*
+        src, for, type, href, value
+        title, alt
+        role, aria-*
+    -->
+    <ul>
+        <li data-animal-type="bird">Owl</li>
+        <li data-animal-type="fish">Salmon</li>
+        <li data-animal-type="spider">Tarantula</li>
+        <li>Owl</li>
+        <li>Salmon</li>
+        <li>Tarantula</li>
+    </ul>
+  <div>
+  </div>
+</body>
+</html>
