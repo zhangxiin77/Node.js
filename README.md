@@ -34,7 +34,7 @@ URN ：统一资源名称
 * PATCH（由 [RFC 5789](https://tools.ietf.org/html/rfc5789) 指定的方法）:用于将局部修改应用到资源
 * 创建一个列表： * + space
   *  enter + tab  => 空心圆
-  * 结束列表： enter ＊ 2
+  *  结束列表： enter ＊ 2
 
 
 
@@ -85,13 +85,13 @@ URN ：统一资源名称
 
 ### 请求头
 
-![http请求头](./http请求头.jpg)
+![http请求头](./images/http请求头.jpg)
 
 
 
 ### 响应头
 
-![http响应头](./http响应头.jpg)
+![http响应头](./images/http响应头.jpg)
 
 
 
