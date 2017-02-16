@@ -1,0 +1,8 @@
+{
+  "name": "NPM_Test",
+  "version": "0.0.1",
+  "description": "对应用程序的描述",
+  "dependencies": {
+    "moment": "2.17.1"
+  }
+}
