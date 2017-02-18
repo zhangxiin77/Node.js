@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url("/images/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%, 100%;
+        }
+        form {
+            position: absolute;
+            top: 20%;
+            left: 40%;
+            width: 400px;
+            height: 500px;
+            background-color: white;
+            border-radius: 4px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        .username {
+            width: 320px;
+            height:30px;
+            font-size: 16px;
+            margin-bottom:30px;
+            border-radius: 5px;
+        }
+        .submit {
+            width: 320px;
+            height:30px;
+            font-size: 16px;
+            margin-bottom:30px;
+            border-radius: 5px;
+            background-color: darkgreen;
+            color: #ffffff;
+            border: none;
+
+        }
+    </style>
+</head>
+<body>
+<form action="/registerAction" method="POST">
+    <label>Username</label>
+    <input type="text" name="username" class="username">
+    <br>
+    <label>Nickname</label>
+    <input type="text" name="nickname" class="username">
+    <br>
+    <label>Password</label>
+    <input type="password" name="password" class="username">
+    <br>
+    <label>Enter Your Password Again</label>
+    <input type="password" class="username" name="password2">
+    <br>
+    <input type="submit" value="Submit" class="submit">
+</form>
+</body>
+</html>
